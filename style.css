@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@1,300&family=Lobster&display=swap');
+
 :root{
-    --vermelho: #093ce5;
+    --azul: #093ce5;
     --preta: #141414;
 
 }
@@ -22,8 +24,8 @@ header .container{
 }
 header .logo{
     margin-left: 5px;
-    color: var(--vermelho);
-    font-family: Arial, Helvetica, sans-serif;
+    color: var(--azul);
+    font-family: 'Lobster', cursive;
     font-size: 40px;
 }
 header nav a{
@@ -36,7 +38,7 @@ header nav a:hover{
 }
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('./img/Berserk_capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('./img/3896982.jpg');
     height: 500px;
     background-size: cover;
     display: flex;
@@ -47,14 +49,16 @@ header nav a:hover{
 .filme-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
+    font-size: 23px;
 }
 .filme-principal .titulo{
     margin-top: 15%;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Abril Fatface', cursive;
 }
 .botao{
-    background-color: rgba(0,0,0,.50);
+    border-radius: 20px;
+    background-color:black;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -68,5 +72,20 @@ header nav a:hover{
     color: black;
 }
 .botao i{
-    margin-left: 12px;
+    margin-left: 5px;
+}
+.container{
+    margin-left: 30px;
+    
+}
+.filme-principal .container{
+    width: 50%;
+}
+.box-filmes{
+    height: 488px;
+    width: 311.33px;
+    display: block;
+}
+.carrosel-filmes{
+    margin-top: 8px;
 }
